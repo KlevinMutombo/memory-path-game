@@ -1,0 +1,68 @@
+.menu {
+    background-color: #f9c4f2;
+    min-height: 100vh;
+    padding: 20px;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .menu-title {
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+    font-family: 'Press Start 2P', cursive;
+  }
+  
+  /* This is the new wrapper for all sections */
+  .menu-content {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    flex-wrap: wrap; /* responsive fallback */
+  }
+  
+  .menu-section {
+    background: #add8e6;
+    padding: 20px;
+    width: 220px;
+    text-align: center;
+    border-radius: 8px;
+    font-family: 'Press Start 2P', cursive;
+  }
+  
+  button {
+    display: block;
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+    font-size: 0.9rem;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-family: 'Press Start 2P', cursive;
+  }
+  
+  .easy {
+    background-color: #4caf50;
+  }
+  
+  .medium {
+    background-color: #ffeb3b;
+  }
+  
+  .hard {
+    background-color: #f44336;
+  }
+  
+  .theme {
+    background-color: #f9d976;
+  }
+  
+  .play-btn {
+    background-color: #2196f3;
+    color: white;
+    font-weight: bold;
+  }
+  
+  
